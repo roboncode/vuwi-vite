@@ -1,0 +1,12 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "./modules/vuwi/theme/core/Application.css";
+@import "./modules/vuwi/theme/core/Color.css";
+@import "./modules/vuwi/theme/core/Layout.css";
+@import "./modules/vuwi/theme/core/Transition.css";
+@import "./modules/vuwi/theme/components/Button.css";
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
