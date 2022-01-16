@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "install:vuwi": "rm pnpm-lock.yaml && rm -rf node_modules && pnpm i"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.2",
@@ -12,7 +13,8 @@
     "maska": "^1.5.0",
     "vee-validate": "^4.5.5",
     "vue": "^3.2.25",
-    "vue-demi": "latest"
+    "vue-demi": "latest",
+    "vuwi": "file:~/local_modules/vuwi.tgz"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.0.0",
