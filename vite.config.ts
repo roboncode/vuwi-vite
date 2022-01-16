@@ -6,6 +6,10 @@ import WindiCSS from 'vite-plugin-windicss'
 export default defineConfig({
   plugins: [
     vue(),
-    WindiCSS(),
+    WindiCSS({
+      scan: {
+        dirs: ['.'],
+      }
+    }),
   ]
 })

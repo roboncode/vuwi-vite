@@ -1,11 +1,12 @@
 {
-  "name": "vuwi-vue2",
+  "name": "vuwi-vite",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
-    "install:vuwi": "rm pnpm-lock.yaml && rm -rf node_modules && pnpm i"
+    "install:vuwi": "rm pnpm-lock.yaml && rm -rf node_modules && pnpm i",
+    "theme:copy": "cp -rf ./node_modules/vuwi/dist/theme theme"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.2",
